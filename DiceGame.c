@@ -17,5 +17,7 @@ int main(){
     total += dice;
   }
   printf("Total value: %d\n",total);
+  if(total > 7) printf("%s won!\n",name);
+  else printf("%s lost!\n",name);
   
 }
